@@ -1,0 +1,310 @@
+*{
+
+    padding:0px;
+    margin:0px;
+}
+:root{
+
+    --mainc:#f25454;
+   }
+
+
+
+
+/*start nav*/
+
+   .log .nav-item{
+
+    padding-left:10px;
+    
+    }
+    .log .nav-item .nav-link:hover{
+    color:var(--mainc);
+    
+    }
+    
+    .log .nav-item .nav-link{
+    
+      font-weight: 600;
+      color: rgb(40, 40, 40);
+    }
+    .log .nav-item .nav-link.active{
+        color:var(--mainc) !important;
+    }
+    .log .nav-item .active{
+        color:var(--mainc) !important;
+    }
+    .log .thegear{
+    
+      position:fixed;
+      left:3px;
+      top:20%;
+      border-radius: 3px;
+      z-index: 999999999999;
+    
+    }
+    .log .thegear{
+      background-color: black;
+    }
+    .log .thegear:hover{
+    
+      background-color: rgb(35, 34, 34);
+    }
+    /*end nav*/
+/*start maincurs*/
+    .vhcurs .theimo1{
+
+        background-image: url(im/slideshow-1.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .vhcurs .theimo2{
+    
+    background-image: url(im/slideshow-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    .vhcurs .theimo3{
+    
+    background-image: url(im/slideshow-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    
+    .vhcurs button{
+    background-color: transparent;
+    color:white;
+    padding:20px;
+    border-color: white;
+    
+    }
+    .vhcurs button:hover{
+    
+        color: var(--mainc);
+        background-color:white;
+    }
+    .vhcurs h2{
+    
+        font-size: 90px;
+    }
+    .vhcurs .migo{
+    
+        height:40px !important;
+        width:25px;
+        border: 3px solid white;
+        border-radius: 10px;
+        top:-80px;
+    }
+    .vhcurs .migo::after{
+        content: "";
+        position: absolute;
+        height:5px !important;
+        width:5px;
+        background-color: beige;
+        border-radius: 50%;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    animation: move 2s   infinite ;
+    
+    }
+    @keyframes move{
+    0%{top:0px;opacity: 1;}
+    90%{top:50%;opacity: 0.3;}
+    100%{top:100%;opacity: 0;}
+    }
+    /*end maincurs*/
+/*start perprogrec*/
+    .theperc .progress-bar{
+        background-color:var(--mainc)
+        
+     }
+     .theperc .progress{
+    
+    height: 4px;
+    }
+    /*end pervprogrec*/
+/*start the fourcard*/
+    .thefourcard .thelayer{
+
+        background-color: #f2545493;
+        top:100%;
+        width:100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.1s ease ;
+        
+    }
+    .thefourcard .thehov:hover .thelayer {
+        top:0%;
+    opacity:1;
+    }
+    .thefourcard .thehov img{
+        transition: all 1s;
+    }
+    .thefourcard .thehov:hover img{
+    
+        transform: scale(1.1,1.1);
+    }
+    .thefourcard .thehov:hover h3{
+    
+    color:var(--mainc);
+    }
+    .thefourcard .row .thelayer i{color:white}
+    
+    .thefourcard .thehov{overflow: hidden;}
+    .thefourcard .over-of-img{ overflow: hidden;}
+    /*end fourcard*/
+
+/*start iconwithparagraph*/
+    .theiconwithpa h6{
+
+
+        font-weight: bold;
+    }
+    .theiconwithpa .thehovofh6 h6{
+    
+        transition: all 0.5s;
+    }
+    .theiconwithpa .thehovofh6:hover h6{
+    
+        color:var(--mainc);
+    }
+    /*end theiconwithparaghraph*/
+
+/*start-forma*/
+
+    .theformandicons .thehovofh5inform .her:hover h5{
+        color:var(--mainc);
+   
+   
+    }
+    .theformandicons .form-control:focus {
+     border-color: #ff000091;
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(255, 0, 0, 0.6);
+   }
+
+   /*end-forma*/
+
+
+
+
+
+
+/*start-world-footer*/
+   .theworld{
+
+    background-image: url(im/world.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width:100%;
+}
+.theworldd .circ{
+
+    width:50px;
+    height: 50px;
+    transform: translatey(-50%);
+    background-color: rgba(245, 5, 5, 0.449)
+    
+}
+.theworldd{
+
+    margin-top:20px;
+}
+.theworldd .theworld button{
+margin:3px;
+
+}
+.theworldd .theworld button:hover{
+background-color: transparent !important;
+color: var(--mainc) !important;
+border-color: var(--mainc) !important;
+
+}
+.theworldd .theworld a{
+    transition: all 0.5s;
+}
+.theworldd .theworld a:hover{
+
+
+  color: var(--mainc) !important;
+}
+.theworldd .theworld i{
+
+    color:white !important;
+}
+.theworldd   .blackandblack{
+color:aliceblue !important;
+    background-color: rgb(26, 26, 26) !important;
+}
+.theworldd .blackandblack i{
+padding-left:20px;
+
+}
+
+
+
+/*end-world-footer*/
+
+
+
+/*start-navswithpic*/
+
+.navssandtaps li{
+
+    text-decoration: none !important;
+    text-align: center;
+    margin-left:25px ;
+}
+.navssandtaps li button{
+border:none !important;
+opacity: 0.5 !important;
+padding:0px;
+
+text-align: center;
+
+}
+.navssandtaps li button.active{
+border:none  !important;
+opacity: 1 !important;
+}
+.navssandtaps ul{
+
+    border:none !important;
+    text-align: center;
+}
+.navssandtaps h3{
+
+    font-size:50px;
+}
+
+
+/*end-navswithpic*/
+
+/*startafter*/
+.theafter .thedivofh2::after{
+    content: "";
+    position:absolute;
+    width:5%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    transform: translateX(-50%);
+    transition: all 1s;
+
+
+}
+.theafter:hover .thedivofh2::after {
+
+    width:10%;
+}
+.theafter .thedivofh2 h2{
+
+
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+/*endafter*/
